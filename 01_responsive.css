@@ -1,0 +1,109 @@
+@media (max-width: 1000px){
+    .top h1{
+      font-size: 40px;
+      opacity: 1;
+      transform: translateY(-40px);
+    }
+    .top-container:hover h1{
+      font-size: 40px;
+      transition: all 0s;
+    }
+
+
+    .items li{
+      margin: 0 5% 0;
+    }
+    .inbox-container i{
+      font-size: 60px;
+    }
+      
+    .inbox-container p{
+      font-size: 40px;
+      margin-top: 20px;
+    }
+  }
+  
+@media (max-width: 670px) {
+    .bars{
+        display: block;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .header-right{
+      display: none;
+    }
+    .bars:active .header-right a{
+        display: block;
+    }
+
+    .top h1{
+        font-size: 20px;
+        opacity: 1;
+        transform: translateY(-40px);
+      }
+      .top-container:hover h1{
+        font-size: 20px;
+        transition: all 0s;
+      }
+
+
+      .mid1-container{
+        position: absolute;
+        left: 0%;
+        width: 100%;
+      }
+      .mid1-container  h3{
+        font-size: 40px;
+        margin-bottom: 100px;
+      }
+
+
+      .box-container{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+      }
+
+      .items{
+        display: block;
+        margin-top: 100px;
+      }
+      .items li{
+          margin: 50px auto;
+      }
+      .inbox-container i{
+        font-size: 50px;
+      }
+      
+      .inbox-container p{
+        font-size: 30px;
+        margin-top: 20px;
+      }
+
+
+
+    .mid3-container{
+      height: 500px;
+      width: 100%;
+      position: absolute;
+      left: 0%;
+    }
+      
+    .mid3 h1{
+      font-size: 30px;
+      color: black;
+      letter-spacing: 15px;
+      padding-bottom: 0px;
+    }
+
+    .footer-container{
+        height: 100%;
+    }
+    .footer-container a{
+        width: 150px;
+        display: block;
+        font-size: 20px;
+        margin: 25px auto;
+    }
+}
